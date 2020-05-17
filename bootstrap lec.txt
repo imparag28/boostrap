@@ -1,0 +1,59 @@
+Bootstrap -
+
+
+a free front-end framework 
+gives you the ability to easily create responsive designs
+by Mark Otto and Jacob Thornton at Twitter
+August 2011 
+Adv
+•	Easy to use
+•	Responsive features
+•	Mobile-first approach
+•	Browser compatibility
+
+
+Bootstrap grid system-
+total 12 cols are there
+1) add container
+2) add row within container
+3) add cols within row
+4)add content within column
+
+class for Grid System
+.row
+.col-xs-n where n is number for phone
+.col-sm-n  where n is number for tab
+.col-md-n where n is number for laptop
+.col-lg-n where n is number for desktop,large laptop
+
+
+e.g
+
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+for 2 equal length columns
+<div class="row">
+  <div class="col-md-6"></div>
+  <div class="col-md-6"></div>
+</div>
+
+for 4 eq length cols
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-3"></div>
+<div class="col-md-3"></div>
+  <div class="col-md-3"></div>
+</div>
+
+column offset-
+set the starting pos offset of column
+col-*-offset-n
+* means md,sm,xs,lg
+n is number of column for offset
+
+
+
